@@ -2,115 +2,107 @@
 <html>
 <head>
 	<title>ItaCeramica</title>
-	<meta charset="utf-8">
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" 
+	href="layout.css"/> 
+
 </head>
 <body>
-	<div align="rigth" style="background-color: #FFE4C4;">
-		<hr/>
-		<table border="0" style="width: 100%;">
-			<a name="topo"></a>
-			<tr >
-				<th style="text-align: left;font-size: 26px"> ItaCeramicas</th>
-				<th style="text-align: right;"> <a href="#produtos">
-					Nossos Produtos </a></th>
-				<th style="text-align: right;"> <a href="#sobre">
-					Sobre </a> </th>
-				<th style="text-align: right;"> <a href="#contato">
-					Contato </a></th>
-			</tr>
-		</table>
-		<hr/>
+	<a name="topo"></a>	
+	<div id="divMenu" >
+		<ul >
+			<li  class="titulo"> ItaCeramicas </li>
+			<li class="item"> <a class="linkMenu" href="#produtos">
+					Nossos Produtos </a> </li>
+			<li class="item"> <a class="linkMenu" href="#sobre">
+					Sobre </a> </li>
+			<li class="item"> <a class="linkMenu" href="#contato">
+					Contato </a> </li>
+		</ul>	
 	</div>
 
-	<div align="center" style="background-color: #FFE4C4" >
+	<div id="divProdutos" >
 		<a name="produtos"></a>
-		<hr/>
-			<h1> Nossos Produtos </h1>
-			<br><br>
-			<table border="0" style="width: 100%">
-				<tr>
-					<th colspan="3"> 
-						<hr width="40%" />
-						<h2> Pisos e Cerâmicas</h2> 
-						<hr width="40%" />
-						<br><br>
-					</th>
-				</tr>
-				<tr style="text-align: center;">
-					<td width="33%">
-						<img src="images\incefra.png" style="width: 45%;height: 20%" alt="Ceramica Incefra">
-						<p> Cerâmica Brilhante Incefra <br> 
-							R$ 18,75 <br/>
-							<a href="descProduto1.html">Mais Informações</a> </p>
-					</td>
-
-					<td width="33%">
-						<img src="images\cer.jpg" style="width: 45%;height: 20%" alt="Ceramica Lef Madeira">
-						<p> Cerâmico Lef Madeira <br/> 
-							R$ 24,90 <br/>
-							<a href="descProduto2.html">Mais Informações</a></p>
-					</td>
-
-					<td width="33%">
-						<img src="images\marrom.png" style="width: 45%;height: 20%" alt="Ceramica Naturale Marrom">
-						<p> Cerâmico Naturale Marrom Brilhante <br/> 
-							R$ 15,99 <br/>
-							<a href="descProduto3.html">Mais Informações</a></p>
-					</td>
-				</tr>
-			</table>
-
-			<table >
+		<br><br> 
+		<hr />
+		<h1> Pisos e Cerâmicas</h1> 
+		<hr />
+		<br><br>
 				
-				<tr> 
-					<td colspan="2" align="center"> 
-						<hr width="40%" />
-							<h2> Blocos e Telhas </h2> 
-						<hr width="40%" />
-						<br><br>
-					</td>
-				</tr>	
+		<div class="produtoCeramica">
+				<img src="images\incefra.png"  alt="Ceramica Incefra">
+				<hr/>
+				<p class="descproduto">  Cerâmica Brilhante Incefra <br> 
+					<strong>R$ 18,75</strong> <br/>
+					<a class="linkItem" href="descProduto1.html"><strong> Mais Informações </strong></a> </p>
+		</div>
 
-				<tr align="center">
-					<td >
-						<img src="images\telha.png" style="width: 35%;height: 25%" alt="Telha em Cerâmica Romana">
-						<p> Telha em Cerâmica Romana <br/> 
-							R$ 1,09 <br/>
-							<a href="descProdutoTelha.html">Mais Informações</a></p>
-					</td>
+		<div class="produtoCeramica">
+				<img src="images\cer.jpg"  alt="Ceramica Lef Madeira">
+				<hr/>
+				<p class="descproduto"> Cerâmico Lef Madeira <br/> 
+				<strong>R$ 24,90</strong> <br/>
+					<a class="linkItem" href="descProduto2.html"><strong> Mais Informações </strong></a></p>
+		</div>
 
-					<td >
-						<img src="images\bloco.png" style="width: 35%;height: 25%" alt="Bloco Cerâmico Avermelhado">
-						<p>Bloco Cerâmico Avermelhado<br/> 
-							R$ 0,79 <br/>
-							<a href="descProdutoBloco.html">Mais Informações</a></p>
-					</td>
-				</tr>
-			</table>
-		<hr>
+		<div class="produtoCeramica">
+				<img src="images\marrom.png"  alt="Ceramica Naturale Marrom">
+				<hr/>	
+				<p class="descproduto"> Cerâmico Naturale Marrom <br/> 
+				<strong>R$ 15,99</strong> <br/>
+					<a class="linkItem" href="descProduto3.html"><strong> Mais Informações </strong></a></p>
+		</div>
+				
+		<hr/>
+		<h1 > Blocos e Telhas </h1> 
+		<hr />
+		<br><br>
+
+		<div class="produtoTelhaBloco">
+				<img src="images\telha.png"  alt="Telha em Cerâmica Romana">
+				<hr/>
+				<p class="descproduto"> Telha em Cerâmica Romana <br/> 
+					<strong> R$ 1,09 </strong> <br/>
+					<a class="linkItem" href="descProdutoTelha.html"><strong> Mais Informações </strong></a></p>
+		</div>
+
+		<div class="produtoTelhaBloco">
+				<img src="images\bloco.png" alt="Bloco Cerâmico Avermelhado">
+				<hr/>
+				<p class="descproduto">Bloco Cerâmico Avermelhado<br/> 
+				<strong> R$ 0,79 </strong> <br/>
+					<a class="linkItem" href="descProdutoBloco.html"><strong> Mais Informações </strong></a></p>
+		</div>
 	</div>
 
-	<div style="text-align: center;background-color: #FFE4C4">
-	<a name="sobre"></a>  
-		<hr/>
+	<div id="divSobre">
+		<a name="sobre"></a>  
+		<br>
+			<hr />
 			<h2> Sobre a ItaCeramicas</h2>
-			<p style="font-size: 20px"> A ItaCeramicas é uma empresa que está a mais de 10 anos no mercado oferecendo produtos de altissima qualidade para os seus clientes. Nossos produtos são feitos artesanalmente pelos nossos profissionais extremamente qualificados. Nós ofeceremos produtos como  ceramias, telha, tijolos dentre outros produtos que você pode olhar <a href="#produtos">clicando aqui.</a></p>
-		<hr/>
+			<hr />
+		<br/>	
+			<p id="descSite"> A ItaCeramicas é uma empresa que está a mais de 10 anos no 
+				mercado oferecendo produtos de altissima qualidade para os seus clientes. 
+				Nossos produtos são feitos artesanalmente pelos nossos profissionais extremamente
+				 qualificados. Nós ofeceremos produtos como  ceramias, telha, tijolos dentre outros
+				  produtos que você pode olhar <a style=" font-size: 1.8vw;text-decoration: none;color: #ffffff;" href="#produtos"><strong>clicando aqui.</strong></a> </p>
+			<br/>	  
 	</div>
 
-	<div style="background-color: #FFE4C4">
+	<div class="divContato">
+		<br>
 		<a name="contato"></a>
-		<hr/>
-		<form style="text-align: center" action="
-		mailto:igorb22@live.com?Subject=Hello%20again">
+		<form  action="mailto:igorb22@live.com?Subject=Hello%20again">
+			<hr />
 			<h2> Fale Conosco</h2>
-			Nome: <input type="text" name="nome" id="nm"> <br/>
-			<p style="font-size: 20px">Comentários</p>
-			<Textarea style="width: 60%;height: 200px" type="message" name="text" >Escreva aqui...</Textarea> <br/> <br/>
+			<hr />
+			<br/>
+			<h3>Envie Seus Comentários</h3>
+			<Textarea id="textArea"  type="message" name="text" >Escreva aqui...</Textarea> <br/> <br/>
 			<input type="submit" name="submit">
 		</form>
-		<div style="text-align: right;"><a href="#topo">Voltar ao Topo</a></div>
-		<hr/>
+		<div id="linkTopo"><a class="linkItem" href="#topo"><strong> Voltar ao Topo</strong></a></div>
 	</div>
 </body>
 </html>
