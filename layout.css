@@ -7,14 +7,14 @@
 .item{
     display: inline-block;
     margin-left: 10%;
-    margin-right: 2%; 
+    margin-right: 2%;
     float: right;
     padding: 5px;   
 }
 
 .titulo{
     color: #ffffff;
-    font-size: 26px;
+    font-size: 1.8vw;
     display: inline-block;
 }
 
@@ -127,17 +127,15 @@ section:after {
 
   article {
     padding: 8%;
-    width: 70%;
+    width: 80%;
     background-color: #f1f1f1;
-    height: 300px; /* only for demonstration, should be removed */
+     /* only for demonstration, should be removed */
   }
 
 
   .descprodutoD{
     color: #555555;
     font-size: 130%;
-    text-align: left;
-    margin-left: 5%;
 }
 
 #divEspecificacoes{
