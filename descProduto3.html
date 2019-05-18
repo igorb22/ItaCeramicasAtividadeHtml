@@ -1,65 +1,66 @@
 <!DOCTYPE html>
-
 <html>
 <head>
 	<title>Descricao</title>
-	<meta charset="utf-8">
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" type="text/css" 
+	href="layout.css"/> 
 </head>
 <body >
-
-	<div style="text-align: center;background-color: #FFE4C4">
-		<hr/>
-		<table border="0" style="width: 100%">
-			<tr>
-				<th style="text-align: left;font-size: 26px"> ItaCeramicas </th>
-				
-				<th style="text-align: right;"> <a href="index.html">
-					Inicio </a> </th>
-			</tr>
-		</table>
-		<hr/>
+	<div id="divMenu" >
+			<ul >
+			<li  class="titulo"> ItaCeramicas </li>
+			<li class="item"> <a class="linkMenu" href="index.html">
+					Inicio </a> </li>
+		</ul>	
 	</div>
 
-	<div style="text-align: center;background-color: #FFE4C4" >
-		<hr/>
-		<table >
-			<tr>
-				<th colspan="2"> <h1>Cerâmico Naturale Marrom Brilhante</h1></th>
-			</tr>
-			<tr >
-				<td width="50%">
-					<img src="images\marrom.png"
-					style="width: 45%;height: 30%" alt="Ceramica Lef Madeira">	<br/>		
-				</td>
-
-				<td align="left">
+	<div id="divProdutos" >
+			<section>
+			<br/>
+			<hr/><h1>Cerâmico Naturale Marrom Brilhante</h1><hr/>
+			<img id="imgProduto" style="width: 25%;height: 25%" src="images\marrom.png" alt="Ceramica Incefra">	
+				<article>			
 					<h2>Descricao</h2>
-						<p>Piso 50x50 Extra HD naturale marrom brilhante caixa com 2,50 M².É um produto com diferencial em seu design que deixará seu ambiente com um aspecto atual e mais bonito</p>
-						<strong style="font-size: 22px" > Preço: R$ 15,99 </strong> <br/><br/>
-					<button style="border-style: dashed"> Comprar </button>
-				</td>
-
-			</tr>
-		</table>
-		<hr/>
+					<hr/>
+					<p class="descprodutoD"> Piso 50x50 Extra HD naturale marrom brilhante caixa com 2,50 M².É um produto com diferencial em seu design que deixará seu ambiente com um aspecto atual e mais bonito</p> <br/><br/>
+					<strong style="font-size: 150%" >  Preço: R$ 15,99 </strong> <br/><br/> 
+					<button style="border-style: dashed"> Comprar </button>			
+				</article>	
+			</section> 	
+			<br/><br/><br/><br/>
 	</div>
 
-	<div style="background-color: #FFE4C4">
-		<hr/>
-		<h2>Especificações</h2>
-		<hr style="width: 30%;margin-left: 0px;"/>
-		<p style="width: 30%;font-size: 18px"><strong>Peças Por Caixa:</strong> 7</p>
-		<hr style="width: 30%;margin-left: 0px;" />
-		<p style="width: 30%;font-size: 18px"><strong>M²   por  caixa:</strong> 2.5</p>
-		<hr style="width: 30%;margin-left: 0px;" />
-		<p style="width: 30%;font-size: 18px"><strong>Tamanho  :</strong> 50X50</p>
-		<hr style="width: 30%;margin-left: 0px;" />
-		<p style="width: 30%;font-size: 18px"><strong>Espessura:</strong> 7.4 mm<p></p>
-		<hr style="width: 30%;margin-left: 0px;" />
+	<div id="divEspecificacoes">
+		<br/>
 		<hr>
-	</div>
-	
+			<h2 style="text-align: center">Especificações</h2>
+		<hr>
 
+		<ul>
+			<li>
+				<strong> Peças Por Caixa:</strong> 7	
+				<hr class="linhaEspecificacao"/>
+			</li>
+
+			<li>
+				<strong>M²   por  caixa:</strong> 2.5
+				<hr class="linhaEspecificacao"/>
+			</li>
+
+			<li> 
+				<strong>Tamanho  :</strong> 50X50
+				<hr class="linhaEspecificacao"/>
+			</li>
+
+			<li>
+				<strong>Espessura:</strong> 7.4mm	
+				<hr class="linhaEspecificacao"/>
+			</li>
+		</ul>	
+		<br>
+	</div>
 
 </body>
 </html>

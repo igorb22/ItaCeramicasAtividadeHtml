@@ -2,57 +2,60 @@
 <html>
 <head>
 	<title>Descricao</title>
-	<meta charset="utf-8">
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" type="text/css" 
+	href="layout.css"/> 
 </head>
 <body >
-	<div style="text-align: center;background-color: #FFE4C4">
-		<hr/>
-		<table border="0" style="width: 100%">
-			<tr>
-				<th style="text-align: left;font-size: 26px"> ItaCeramicas </th>
-				
-				<th style="text-align: right;"> <a href="index.html">
-					Inicio </a> </th>
-			</tr>
-		</table>
-		<hr/>
+	<div id="divMenu" >
+			<ul >
+			<li  class="titulo"> ItaCeramicas </li>
+			<li class="item"> <a class="linkMenu" href="index.html">
+					Inicio </a> </li>
+		</ul>	
 	</div>
 
-	<div style="text-align: center;background-color: #FFE4C4" >
-		<hr/>
-		<table border="0" >
-			<tr>
-				<th colspan="2"><h1>Bloco Cerâmico Avermelhado</h1></th>
-			</tr>
-
-			<tr >
-				<td width="50%">
-					<img src="images\bloco.png"
-					style="width: 40%;height: 30%" alt="Ceramica Incefra">	<br/>		
-				</td>
-
-				<td align="left">
+	<div id="divProdutos" >
+			<section>
+			<br/>
+			<hr/><h1>Bloco Cerâmico Avermelhado </h1><hr/>
+			<img id="imgProduto" img src="images\bloco.png"  alt="Ceramica Incefra">	
+				<article>			
 					<h2>Descricao</h2>
-						<p>Bloco Cerâmico 9x19x19cm Avermelhado é um produto versátil que pode ser  usado para construção de casas, por ser mais econômico, ter conforto térmico e acústico e trazer baixo custo para a obra. Também é muito usado para fazer decoração, na construção de paredes rústicas.</p>
-					<strong style="font-size: 22px" > Preço: R$ 0,79 un </strong> <br/><br/>
-					<button style="border-style: dashed"> Comprar </button>
-				</td>
-			</tr>
-		</table>
-		<hr/>
+					<hr/>
+					<p class="descprodutoD"> Bloco Cerâmico 9x19x19cm Avermelhado é um produto versátil que pode ser  usado para construção de casas, por ser mais econômico, ter conforto térmico e acústico e trazer baixo custo para a obra. Também é muito usado para fazer decoração, na construção de paredes rústicas.</p> <br/><br/>
+					<strong style="font-size: 150%" >  Preço: R$ 0,79 un</strong> <br/><br/> 
+					<button style="border-style: dashed"> Comprar </button>			
+				</article>	
+			</section> 	
+			<br/><br/><br/><br/>
 	</div>
 
-	<div style="background-color: #FFE4C4">
-		<hr/>
-		<h2>Especificações</h2>
-		<hr style="width: 30%;margin-left: 0px;"/>
-		<p style="width: 30%;font-size: 18px"><strong>Altura (cm):</strong> 9</p>
-		<hr style="width: 30%;margin-left: 0px;" />
-		<p style="width: 30%;font-size: 18px"><strong>Largura (cm):</strong> 19</p>
-		<hr style="width: 30%;margin-left: 0px;" />
-		<p style="width: 30%;font-size: 18px"><strong>Quantidade de Furos:</strong> 8<p></p>
-		<hr style="width: 30%;margin-left: 0px;" />
+	<div id="divEspecificacoes">
+		<br/>
 		<hr>
+			<h2 style="text-align: center">Especificações</h2>
+		<hr>
+
+		<ul>
+			<li>
+				<strong>Altura (cm):</strong> 9	
+				<hr class="linhaEspecificacao"/>
+			</li>
+
+			<li>
+				<strong>Largura (cm):</strong> 19
+				<hr class="linhaEspecificacao"/>
+			</li>
+
+			<li> 
+				<strong>Quantidade de Furos:</strong> 8
+				<hr class="linhaEspecificacao"/>
+			</li>
+		</ul>	
+		<br>
 	</div>
+
 </body>
 </html>
