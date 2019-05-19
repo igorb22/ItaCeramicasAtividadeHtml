@@ -1,0 +1,153 @@
+.estiloDivMenu{
+    background-color: #555555;
+    border: 1px solid #555555; 
+    align: "center";
+}
+
+.estiloItem{
+    display: inline-block;
+    margin-left: 10%;
+    margin-right: 2%;
+    float: right;
+    padding: 5px;   
+}
+
+.estiloTitulo{
+    color: #ffffff;
+    font-size: 1.8vw;
+    display: inline-block;
+}
+
+.estiloLinkMenu{
+    font-size: 1.6vw;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.estiloDivProdutos{
+    background-color: #f0f0f0;
+    text-align: center; 
+}
+
+.estiloCarViewProdutos {
+   border: 1px solid #ffffff;
+   display: inline-block;
+   width: 20%; height: 50%;
+   margin: 3% 3%;
+   text-align: center;
+   background-color: #ffffff;
+
+   /*CardView*/
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   transition: 0.3s;
+   border-radius: 5px; 
+}
+
+.estiloTituloDoProduto{
+    color: #555555;
+    font-size: 1.5vw;
+    text-align: left;
+    margin-left: 5%;
+}
+
+.divContato{
+    background-color: #f0f0f0;
+    text-align: center;
+    color: #555555;
+
+}
+
+.linkItem{
+    font-size: 1.5vw;
+    color: #555555;
+    text-decoration: none;
+}
+
+.estiloImgProduto{
+    margin-left: 4%;
+    width: 25%;
+    height: 25%;
+    float: left;
+  }
+
+.estiloDescProduto{
+    color: #555555;
+    font-size: 130%;
+}
+
+.estiloDivEspecificacoes{
+    text-align: left;
+    background-color: #555555;
+    color: #ffffff;   
+}
+
+.estiloLinhaEspecificacao{
+    width: 15%;
+     margin-left: 0px;  
+}
+
+.tituloDescricao{
+    color: #555555;
+}
+
+.estiloValorProduto{
+    color: #555555;
+    font-size: 150%;
+
+}
+
+.estiloBotao{
+    border-style: dashed;
+}
+
+.estiloTituloEspecificacao{
+    text-align: center;
+}
+
+h1{
+    color: #555555; 
+}
+
+hr{
+    width: 40%;
+}
+
+img{
+    padding: 10%;
+    width: 80%;
+    left: 30%
+}
+
+article {
+    padding: 8%;
+    width: 80%;
+    background-color: #f1f1f1;
+     /* only for demonstration, should be removed */
+}
+
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#divSobre{
+    text-align: center;
+    background-color: #555555;
+    color: #ffffff;
+}
+
+#descSite{
+    font-size: 1.8vw;
+    overflow: hidden;
+}
+
+#textArea{
+
+    width: 40%;
+    height: 200px;
+}
+
+#linkTopo{
+    text-align: right;
+}
