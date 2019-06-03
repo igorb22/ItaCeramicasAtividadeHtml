@@ -6,17 +6,44 @@
 	
 	<link rel="stylesheet" type="text/css" 
 	href="estilo.css"/> 
+	<script type="text/javascript" src="js/jquery-3.4.1.js"> </script>
+	<script type="text/javascript">
+		
+		$(document).ready(function () {
+			$("#btnComprar").click(function(){
+				alert("Infelizmente os estoques desse produto acabaram, consulte outros produtos de nossa loja!.");
+			});
+
+			$("#dia").click(function(){
+				document.getElementById('divMenuProduto').style.backgroundColor = '#4CAF50'
+				document.getElementById('divSobreProduto').style.backgroundColor = '#4CAF50'
+			});
+
+			$("#noite").click(function(){
+				document.getElementById('divMenuProduto').style.backgroundColor = '#555555'
+				document.getElementById('divSobreProduto').style.backgroundColor = '#555555'
+			});
+		});
+	</script>
 </head>
 <body >
-	<div class="estiloDivMenu" >
+	<div class="estiloDivMenu" id="divMenuProduto">
 			<ul >
-			<li  class="estiloTitulo"> ItaCeramicas </li>
+			<li class="estiloTitulo"> ItaCeramicas </li>
 			<li class="estiloItem"> <a class="estiloLinkMenu" href="index.html">
 					Inicio </a> </li>
 		</ul>	
 	</div>
 
-	<div class="estiloDivProdutos">
+	<div class="div-estilo">
+			<h1>Tema</h1>
+			<button id="dia" class="estiloLinkTemaClaro">Claro</button> 
+			<hr>
+			<button id="noite" class="estiloLinkTemaEscuro">Escuro</button>	
+	</div>
+
+
+	<div class="estiloDivProdutos" >
 			<section>
 			<br/>
 			<hr/><h1>Cerâmica Brilhante Incefra Madeira</h1><hr/>
@@ -27,13 +54,13 @@
 					<p class="estiloDescProduto"> Piso 50x50 Cerâmica Brilhante Incefra Madeira Taco Claro caixa com 2,25 M².É um produto com diferencial
 						em seu design que deixará seu ambiente com um aspecto atual e mais bonito</p> <br/><br/>
 					<strong class="estiloValorProduto" > Preço: R$ 18,75 </strong> <br/><br/> 
-					<button class="estiloBotao"> Comprar </button>			
+					<button class="estiloBotao" id="btnComprar"> Comprar </button>			
 				</article>	
 			</section> 	
 			<br/><br/><br/><br/>
 	</div>
 
-	<div class="estiloDivEspecificacoes" >
+	<div class="estiloDivEspecificacoes" id="divSobreProduto">
 		<br/>
 		<hr>
 			<h2 class="estiloTituloEspecificacao">Especificações</h2>

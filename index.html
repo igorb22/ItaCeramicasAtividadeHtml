@@ -7,10 +7,30 @@
 	<link rel="stylesheet" type="text/css" 
 	href="estilo.css"/> 
 
+	<script type="text/javascript" src="js/jquery-3.4.1.js"> </script>
+	<script type="text/javascript">
+		
+		$(document).ready(function () {
+			alert("Bem vindo ao ItaCeramicas!, sua loja de materias para construção.\n"
+			+ "Aqui você vai encontrar tudo o que deseja com o preço que cabe no seu bolso.");
+
+			$("#dia").click(function(){
+				document.getElementById('divMenuIndex').style.backgroundColor = '#4CAF50'
+				document.getElementById('divSobre').style.backgroundColor = '#4CAF50'
+			});
+
+			$("#noite").click(function(){
+				document.getElementById('divMenuIndex').style.backgroundColor = '#555555'
+				document.getElementById('divSobre').style.backgroundColor = '#555555'
+			});
+		});
+	</script>
+
+
 </head>
 <body>
 	<a name="topo"></a>	
-	<div class="estiloDivMenu" >
+	<div class="estiloDivMenu" id="divMenuIndex">
 		<ul >
 			<li  class="estiloTitulo"> ItaCeramicas </li>
 			<li class="estiloItem"> <a class="estiloLinkMenu" href="#produtos">
@@ -22,12 +42,21 @@
 		</ul>	
 	</div>
 
+	
 	<div class="estiloDivProdutos" >
 		<a name="produtos"></a>
+	
+		<div class="div-estilo">
+				<h1>Tema</h1>
+				<button id="dia" class="estiloLinkTemaClaro">Claro</button> 
+				<hr>
+				<button id="noite" class="estiloLinkTemaEscuro">Escuro</button>	
+		</div>
+
 		<br><br> 
-		<hr />
+		<hr/>
 		<h1> Pisos e Cerâmicas</h1> 
-		<hr />
+		<hr/>
 		<br><br>
 		<div class="estiloCarViewProdutos">
 				<img src="images\incefra.png"  alt="Ceramica Incefra">
